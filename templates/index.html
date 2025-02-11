@@ -1,1 +1,80 @@
-<h1> this is the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Prediction</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #e0eafc, #cfdef3); /* Light, calming background */
+            color: #333; /* Dark text for contrast */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 20px;
+            color: #2c3e50; /* Darker heading color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            margin-top: 30px;
+            text-align: center; /* Center content within container */
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6; /* Improve readability */
+        }
+
+        .calculate-button {
+            background-color: #3498db; /* Blue button */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        .calculate-button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        footer {
+            margin-top: auto; /* Push footer to bottom */
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diamond Price Prediction</h1>
+
+    <div class="container">
+        <p>Welcome to our Diamond Price Prediction tool!  Get an estimated price for your diamond based on various characteristics.</p>
+        <a href="/predict">  <button class="calculate-button">Calculate Price</button>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2023 Diamond Price Predictor
+    </footer>
+
+</body>
+</html>
